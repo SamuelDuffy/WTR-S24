@@ -1,1 +1,8 @@
-/*temp*/
+.main-container {
+    display: flex;
+}
+
+.link-container {
+    display: flex;
+    gap: 10px;
+}
