@@ -13,6 +13,7 @@ html,body {
 #main-container {
     padding-left: 10px;
     display: flex;
+    align-items: last baseline;
     gap: 10px;
     background-color: black;
     color: white;
@@ -45,7 +46,43 @@ html,body {
 }
 
 .main {
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#goals {
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-evenly;
+    /* gap:10px; */
+}
+.goal {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+    height: auto;
+}
+.divhalf {
+    display: flex;
+    gap: 5%;
+}
+
+.divhalftext {
+    width: 70%;
+}
+
+.divhalfimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    /* margin-left: 2%; */
+    /* height: fit-content; */
+    border: solid 1px grey;
+    background-color: lightgrey;
 }
 
 p{
