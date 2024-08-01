@@ -15,10 +15,8 @@ html,body {
 }
 
 #main-container {
-    padding-left: 10px;
     display: flex;
     align-items: last baseline;
-    gap: 10px;
     background-color: black;
     color: white;
     font-size: x-large;
@@ -26,11 +24,15 @@ html,body {
 
 #link-container {
     display: flex;
-    background-color: lightslategray;
+    background-color: #69A3B9;
     color: white;
     font-size: large;
     align-items: center;
     height: 60px;
+}
+
+#navbar {
+    height: 60%;
 }
 
 #link-container a {
@@ -40,13 +42,13 @@ html,body {
     padding: 0px 0.5% 0px 0.5%;
     text-decoration: none;
     color: white; 
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     transition: background-color 0.3s ease;
     height: 100%;
 }
 
 #link-container a:hover {
-    background-color: darkslategray; 
+    background-color: #396779; 
 }
 
 .main {
@@ -68,22 +70,33 @@ html,body {
 
 .divhalf {
     display: flex;
+    flex-direction: row;
     gap: 5%;
 }
 
 .divhalftext {
+    height: 100%;
     width: 70%;
 }
 
+p > i {
+    font-size: medium;
+}
+
 .divhalfimage {
+    height: min-content;
     display: flex;
+    flex:1;
+
     flex-direction: column;
     align-items: center;
-    justify-content:baseline;
+    align-content: center;
+
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1%;
-    height: min-content;
+    margin-bottom: 1em;
+
     border: solid 1px grey;
     background-color: lightgrey;
 }
@@ -96,6 +109,11 @@ p{
 
     .divhalf{
         display: block;
+    }
+
+    .main {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     #main-container {
@@ -111,7 +129,11 @@ p{
     }
     
     .divhalftext{
-        width: 100%;
+        height: auto;
+    }
+
+    .divhalfimage{
+        height: auto;
     }
 
     #goals {
@@ -120,10 +142,6 @@ p{
 
     .goal {
         width: 100%;
-    }
-
-    .divhalfimage{
-        margin: auto;
     }
 
     #link-container a {
