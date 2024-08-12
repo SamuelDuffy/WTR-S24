@@ -26,7 +26,7 @@ html,body {
     display: flex;
     background-color: #69A3B9;
     color: white;
-    font-size: large;
+    font-size: larger;
     align-items: center;
     height: 60px;
 }
@@ -102,12 +102,19 @@ p > i {
 }
 
 p{
+    font-size: larger;
+}
+
+li{
     font-size: large;
 }
 
 @media (max-width: 768px) {
 
-    .divhalf{
+    p {
+        font-size: medium;
+    }
+    .divhalf {
         display: block;
     }
 
@@ -118,10 +125,12 @@ p{
 
     #main-container {
         text-align: center;
+        font-size: large;
     }
 
     .headeritem {
-        margin-left: 0%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     #link-container {
@@ -130,6 +139,7 @@ p{
     
     .divhalftext{
         height: auto;
+        width: 100%;
     }
 
     .divhalfimage{
