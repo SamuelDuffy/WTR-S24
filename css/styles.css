@@ -5,8 +5,8 @@ html,body {
     margin:0;
     padding:0;
     font-family:"Calibri", sans-serif;
-    background-color: #c5b0ea;
-    color: #2232a2;
+    background-color: #DDDBDE;
+    color: #1c5585;
 }
 
 p{
@@ -18,11 +18,12 @@ li{
 }
 
 hr{
-    border-color:#2232a2;
+    border-color:#1c5585;
+    color: #1c5585;
 }
 
 a{
-    color:#2232a2
+    color:#1c5585;
 }
 
 p > i {
@@ -35,15 +36,15 @@ p > i {
     justify-content: center; 
     padding: 0px 0.5% 0px 0.5%;
     text-decoration: none;
-    color: #c5b0ea;
+    color: #DDDBDE;
     transition: background-color 0.3s ease;
     height: 100%;
 }
 
 #link-container a:hover {
     /* background-color: #396779;  */
-    background-color:#c5b0ea;
-    color: #2232a2;
+    background-color:#DDDBDE;
+    color: #1c5585;
 }
 
 /* ID SELECTORS */
@@ -62,16 +63,16 @@ p > i {
     display: flex;
     align-items: last baseline;
     /* background-color: black; */
-    background-color: #c5b0ea;
-    color: #2232a2;
+    background-color: #DDDBDE;
+    color: #1c5585;
     font-size: x-large;
 }
 
 #link-container {
     display: flex;
     /* background-color: #69A3B9; */
-    background-color: #2232a2;
-    color: #c5b0ea;
+    background-color: #1c5585;
+    color: #DDDBDE;
     font-size: larger;
     align-items: center;
     height: 60px;
@@ -126,8 +127,8 @@ p > i {
     padding-top: 1%;
     margin-bottom: 1em;
 
-    border: solid 1px #2232a2;
-    background-color: #9584ea;
+    border: solid 1px #1c5585;
+    background-color: #CAD4DF;
 }
 
 @media (max-width: 768px) {
