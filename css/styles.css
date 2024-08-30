@@ -34,7 +34,7 @@ p > i {
     font-size: medium;
 }
 
-#link-container #current_page_nav_item{
+#link-container #current-page-nav-item{
     color:#1c5585;
     border-radius: 10px 10px 0 0;
     pointer-events: none;
@@ -63,7 +63,6 @@ p > i {
 
 /* ID SELECTORS */
 
-
 #navbar {
     height: 60%;
 }
@@ -87,26 +86,26 @@ p > i {
     height: 60px;
 }
 
-#goals {
-    display: flex;
-    align-items:first baseline;
-    justify-content: space-evenly;
-}
-
-#current_page_nav_item {
+#current-page-nav-item {
     background-color: #DDDBDE;
     color: #1c5585;
 }
 
 /* CLASS SELECTORS */
 
-.headeritem {
+.header-item {
     margin-left: 10%;
 }
 
 .main {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.goals {
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-evenly;
 }
 
 .goal {
@@ -116,18 +115,18 @@ p > i {
     height: auto;
 }
 
-.divhalf {
+.div-half {
     display: flex;
     flex-direction: row;
     gap: 5%;
 }
 
-.divhalftext {
+.div-half-text {
     height: 100%;
     width: 70%;
 }
 
-.divhalfimage {
+.div-half-image {
     height: min-content;
     display: flex;
     flex:1;
@@ -168,13 +167,13 @@ p > i {
         justify-content: center;
     }
 
-    #goals {
+    .goals {
         display: block;
     }
 
     /* CLASS SELECTORS */
 
-    .divhalf {
+    .div-half {
         display: block;
     }
 
@@ -183,23 +182,22 @@ p > i {
         padding-right: 5%;
     }
 
-    .headeritem {
+    .header-item {
         margin-left: 1%;
         margin-right: 1%;
     }
 
-    .divhalftext{
+    .div-half-text{
         height: auto;
         width: 100%;
     }
 
-    .divhalfimage{
+    .div-half-image{
         height: auto;
     }
 
     .goal {
         width: 100%;
     }
-
 
 }
